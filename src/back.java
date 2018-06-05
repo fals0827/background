@@ -46,18 +46,21 @@ public class back extends JFrame{
                     jpn.add(jlb1);
                     jlb1.setBounds(1258,0,884,685);
                     lb1X = 1258;
+                    repaint();
                 }
                 if (lb2X <= -374){
                     jpn.remove(jlb2);
                     jpn.add(jlb2);
                     jlb2.setBounds(1764,0,380,685);
                     lb2X = 1764;
+                    repaint();
                 }
                 if (lb3X <= -880){
                     jpn.remove(jlb3);
                     jpn.add(jlb3);
                     jlb3.setBounds(1258,0,884,685);
                     lb3X = 1258;
+                    repaint();
                 }
                 lb1X -= 1 ;
                 lb2X -= 1 ;
